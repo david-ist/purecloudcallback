@@ -1,6 +1,5 @@
 import requests
 import base64
-import sys
 
 # Get auth token use client_id and client_secret
 def get_token() -> "global response":
