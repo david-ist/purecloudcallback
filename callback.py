@@ -19,7 +19,7 @@ def get_token() -> "global response":
 def create_callback() -> None:
     body = {
     "queueId": "XXXXXX",
-    "callbackNumbers": ["+4915238484530"],
+    "callbackNumbers": ["+49152384124584530"],
     "callbackUserName":"Test"}
     response = requests.post("https://api.mypurecloud.de/api/v2/conversations/callbacks", json = body, headers = requestHeaders)
     error_handling("successfully created")
